@@ -1,3 +1,7 @@
 @import 'base';
 @import 'page';
 @import 'component';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

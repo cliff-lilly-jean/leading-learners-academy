@@ -1,5 +1,16 @@
 .navbar {
-    border: 1px solid red;
     height: 70px;
     width: 100%;
+    position: relative;
+
+    &::before {
+        content: url('data:image/svg+xml,<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,200 0,200 C 78.41538461538462,234.0179487179487 156.83076923076925,268.0358974358974 241,262 C 325.16923076923075,255.96410256410257 415.0923076923076,209.87435897435898 505,206 C 594.9076923076924,202.12564102564102 684.8,240.4666666666667 756,256 C 827.2,271.5333333333333 879.7076923076925,264.25897435897434 954,245 C 1028.2923076923075,225.74102564102563 1124.3692307692309,194.4974358974359 1209,185 C 1293.6307692307691,175.5025641025641 1366.8153846153846,187.75128205128203 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="%23ffffff" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path></svg>');
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -3rem;
+        filter: drop-shadow(2px 4px 8px #efefef);
+        overscroll-behavior: contain;
+
+    }
 }
